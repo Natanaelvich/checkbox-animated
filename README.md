@@ -17,7 +17,8 @@ Checkbox Animated component animated made with react native, Expo and Moti.
 ## 🖼 GIF
 
 <p align='center'>
-<img src='' width='375' />
+<img src='https://user-images.githubusercontent.com/52014318/145326705-4e168cf0-55a3-4660-99a8-5cc5bc855c80.gif' width='375' />
+
 </p>
 
 ## ✨ Technologies!
