@@ -16,6 +16,7 @@ export default function App() {
             animate={{
               width: checked ? _size : 0,
               height: checked ? _size : 0,
+              opacity: checked ? 1 : 0,
             }}
             transition={{
               type: "spring",
@@ -27,11 +28,7 @@ export default function App() {
               justifyContent: "center",
             }}
           >
-            <MaterialIcons
-              name="check"
-              size={checked ? _size * 0.9 : 0}
-              color="#fff"
-            />
+            <MaterialIcons name="check" size={_size} color="#fff" />
           </MotiView>
         </MotiView>
       </TouchableOpacity>
